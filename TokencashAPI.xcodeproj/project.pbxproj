@@ -10,6 +10,12 @@
 		A00419131E4E33A800D36A9F /* TokencashAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00419091E4E33A800D36A9F /* TokencashAPI.framework */; };
 		A00419181E4E33A800D36A9F /* TokencashAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419171E4E33A800D36A9F /* TokencashAPITests.swift */; };
 		A004191A1E4E33A800D36A9F /* TokencashAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A004190C1E4E33A800D36A9F /* TokencashAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00419291E4E33C500D36A9F /* BackendConections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419231E4E33C500D36A9F /* BackendConections.swift */; };
+		A004192A1E4E33C500D36A9F /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419241E4E33C500D36A9F /* Token.swift */; };
+		A004192B1E4E33C500D36A9F /* TokenDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419251E4E33C500D36A9F /* TokenDetailed.swift */; };
+		A004192C1E4E33C500D36A9F /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419261E4E33C500D36A9F /* Payments.swift */; };
+		A004192D1E4E33C500D36A9F /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419271E4E33C500D36A9F /* Reward.swift */; };
+		A004192E1E4E33C500D36A9F /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00419281E4E33C500D36A9F /* Bag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		A00419121E4E33A800D36A9F /* TokencashAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokencashAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00419171E4E33A800D36A9F /* TokencashAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokencashAPITests.swift; sourceTree = "<group>"; };
 		A00419191E4E33A800D36A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00419231E4E33C500D36A9F /* BackendConections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendConections.swift; sourceTree = "<group>"; };
+		A00419241E4E33C500D36A9F /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		A00419251E4E33C500D36A9F /* TokenDetailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenDetailed.swift; sourceTree = "<group>"; };
+		A00419261E4E33C500D36A9F /* Payments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		A00419271E4E33C500D36A9F /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		A00419281E4E33C500D36A9F /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,12 @@
 		A004190B1E4E33A800D36A9F /* TokencashAPI */ = {
 			isa = PBXGroup;
 			children = (
+				A00419231E4E33C500D36A9F /* BackendConections.swift */,
+				A00419241E4E33C500D36A9F /* Token.swift */,
+				A00419251E4E33C500D36A9F /* TokenDetailed.swift */,
+				A00419261E4E33C500D36A9F /* Payments.swift */,
+				A00419271E4E33C500D36A9F /* Reward.swift */,
+				A00419281E4E33C500D36A9F /* Bag.swift */,
 				A004190C1E4E33A800D36A9F /* TokencashAPI.h */,
 				A004190D1E4E33A800D36A9F /* Info.plist */,
 			);
@@ -149,6 +167,7 @@
 					A00419081E4E33A800D36A9F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8P3BKG4PKQ;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A00419111E4E33A800D36A9F = {
@@ -198,6 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00419291E4E33C500D36A9F /* BackendConections.swift in Sources */,
+				A004192A1E4E33C500D36A9F /* Token.swift in Sources */,
+				A004192C1E4E33C500D36A9F /* Payments.swift in Sources */,
+				A004192B1E4E33C500D36A9F /* TokenDetailed.swift in Sources */,
+				A004192E1E4E33C500D36A9F /* Bag.swift in Sources */,
+				A004192D1E4E33C500D36A9F /* Reward.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +347,7 @@
 		A004191E1E4E33A800D36A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8P3BKG4PKQ;
@@ -334,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stx.TokencashAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +368,7 @@
 		A004191F1E4E33A800D36A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8P3BKG4PKQ;
@@ -360,6 +388,7 @@
 		A00419211E4E33A800D36A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8P3BKG4PKQ;
 				INFOPLIST_FILE = TokencashAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +401,7 @@
 		A00419221E4E33A800D36A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8P3BKG4PKQ;
 				INFOPLIST_FILE = TokencashAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +430,7 @@
 				A004191F1E4E33A800D36A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A00419201E4E33A800D36A9F /* Build configuration list for PBXNativeTarget "TokencashAPITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +439,7 @@
 				A00419221E4E33A800D36A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

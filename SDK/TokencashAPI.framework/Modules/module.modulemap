@@ -1,0 +1,10 @@
+framework module TokencashAPI {
+  umbrella header "TokencashAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module TokencashAPI.Swift {
+    header "TokencashAPI-Swift.h"
+}
